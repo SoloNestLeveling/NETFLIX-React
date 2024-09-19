@@ -16,7 +16,7 @@ export const BannerBox = styled.div<{ bgImage: string }>`
     position: relative;
     width: 100%;
     padding-top: 56.25%;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.2)),url(${(props) => props.bgImage});
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.9)),url(${(props) => props.bgImage});
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
